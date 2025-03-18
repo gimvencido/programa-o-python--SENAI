@@ -1,50 +1,50 @@
-# # loop while - contador
-# c = 10
-# while c  > 0:
-#  print(c)
-# c -= 1
+# loop while - contador
+c = 10
+while c  > 0:
+ print(c)
+c -= 1
 
 
-# #while infinito
+#while infinito
 
-# n = 100
-# while n > 0:
-# n = n +1   
-# print('Olá Mundo!', n)
-
-
-# strings
-
-# pergunta = input('Digite sua Escolha: sim ou não')
-
-# while pergunta == 'sima':
-#     print('Preencha o Formulario:')
-#     print('nome:')
-#     nome = input('nome - ')
-#     print('idade:')
-#     idade = input('idade - ')
-#     print('idade', idade)
-#     print('E-mail')
-#     email = input('e- mail - ')
-#     pergunta = input('Deseja Continuar?')
+n = 100
+while n > 0:
+n = n +1   
+print('Olá Mundo!', n)
 
 
-# import random
-# chances = 3
-# while chances > 0:
-#     aleatorio = random.randint(1,2)
-#     escolha = int(input('Digite um número: '))
-#     if escolha  == aleatorio:
-#         print('Acertou em cheio!')
-#         print('O numero da sorte é ', aleatorio)
-#         break
-#     else:
-#         chances = chances - 1
-#         print('Você tem ', chances, 'chances')
-#         print('o número sorteado foi ', aleatorio)  
-# else:
-#     print('Chances esgotadas', chances)
-#     print('você perdeu o jogo!!!! ;(')
+strings
+
+pergunta = input('Digite sua Escolha: sim ou não')
+
+while pergunta == 'sima':
+    print('Preencha o Formulario:')
+    print('nome:')
+    nome = input('nome - ')
+    print('idade:')
+    idade = input('idade - ')
+    print('idade', idade)
+    print('E-mail')
+    email = input('e- mail - ')
+    pergunta = input('Deseja Continuar?')
+
+
+import random
+chances = 3
+while chances > 0:
+    aleatorio = random.randint(1,2)
+    escolha = int(input('Digite um número: '))
+    if escolha  == aleatorio:
+        print('Acertou em cheio!')
+        print('O numero da sorte é ', aleatorio)
+        break
+    else:
+        chances = chances - 1
+        print('Você tem ', chances, 'chances')
+        print('o número sorteado foi ', aleatorio)  
+else:
+    print('Chances esgotadas', chances)
+    print('você perdeu o jogo!!!! ;(')
 
 
 
